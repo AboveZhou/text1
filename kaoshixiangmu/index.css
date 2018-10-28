@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	color: #ffefcd;
+	text-decoration: none;
+}
+body {
+	/*height: 3000px;*/
+	font-size: 14px;
+	background-color: #f7f7f7;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.w {
+	width: 1180px;
+	margin: 0 auto;
+}
+.fr {
+	float: right;
+}
+/*shortcut  start*/
+.shortcut {
+	height: 28px;
+	background-color: #009b73;
+}
+/*.shortcut-r {
+	float: right;
+}*/
+.shortcut .fr li {
+	float: left;
+	width: 66px;
+	border-left: 1px solid #46b389;
+	text-align: center;
+	line-height: 28px;
+}
+.header {
+	height: 78px;
+	background-color: #fff;
+}
+.logo {
+	float: left;
+	margin-top: 30px;
+	width: 118px;
+	height: 19px;
+	background: url(images/oppologo.png) no-repeat;
+	}
+.logo a {
+	display: block;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.nav li {
+	margin-top: 30px;
+	float: left;
+	padding: 0 22px;
+
+}
+.nav li a {
+	color: #3b3c37;
+}
+.main-hd {
+	height: 50px;
+	line-height: 50px;
+}
+.main-hd a,
+.main-hd span {
+	color: #797e78;
+}
+.main-bd {
+	height: 737px;
+}
+.main-bd-l {
+	position: relative;
+	float: left;
+	width: 775px;
+	height: 737px;
+}
+.main-bd-a {
+	width: 775px;
+	height: 362px;
+}
+.main-bd-b {
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	width: 775px;
+	height: 361px;
+}
+.main-bd-r {
+	float: right;
+	width: 398px;
+	height: 737px;
+}
+.box {
+	position: relative;
+	margin: 100px 5px 0;
+	width: 1170px;
+	height: 1px;
+	background-color: #e5e5e5;
+}
+.box-logo {
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	margin-left: -114px;
+	width: 228px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+.recommend-hd {
+	margin: 20px 0 0 5px;
+	height: 44px;
+}
+.recommend-hd dl {
+	float: left;
+}
+.recommend-hd dt {
+	float: left;
+	text-align: center;
+	line-height: 44px;
+	color: #221e1f;
+	font-weight: 700;
+}
+.recommend-hd dd{
+	float: left;
+	text-align: center;
+	line-height: 44px;
+	margin-left: 25px;
+	color: #787aa1;
+}
+.recommend-bd li {
+	float: left;
+	margin-left: 10px;
+	width: 284px;
+	height: 364px;
+}
+.recommend-bd li img {
+	width: 284px;
+	height: 364px;
+}
+
+.box1 {
+	float: left;
+	margin-top: 40px;
+	width: 583px;
+	height: 300px;
+}
+.box2 {
+	float: left;
+	margin: 40px 0 0 14px;
+	width: 583px;
+	height: 300px;
+}
+.footer {
+	
+	height: 310px;
+}
+.links {
+	margin-top: 170px;
+	width: 1180px;
+	height: 184px;
+	border-bottom: 1px solid   #cfcfcf;
+}
+.links dl {
+	float: left;
+	width: 220px;
+	height: 184px;
+}
+.links dl dt {
+	height: 40px;
+}
+.links dl dd {
+	height: 25px;
+}
+.service {
+	float: right;
+	height: 184px;
+	text-align: center;
+}
+.service h5 {
+	margin: 30px 0 0 10px;
+	height: 26px;
+	line-height: 26px;
+}
+.service p {
+	height: 26px;
+	line-height: 26px;
+}
+.copyright {
+	margin-top: 40px;
+}
+.copyright-l {
+	float: left;
+	width: 530px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+.copyright-l .img {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url(images/icon-identification.png);
+	vertical-align: middle;
+}
+.copyright-r {
+	float: right;
+	width: 200px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+.copyright-r img {
+	vertical-align: middle;
+}
+
